@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Deux palettes d'un tableau d'affichage, qui cachent un numéro. -->
+  <rect width="64" height="64" rx="14" fill="#f1ede4"/>
+  <rect x="7" y="12" width="24" height="40" rx="4" fill="#17191e"/>
+  <rect x="33" y="12" width="24" height="40" rx="4" fill="#17191e"/>
+  <path d="M7 32h24M33 32h24" stroke="#f1ede4" stroke-width="2"/>
+  <text x="19" y="44" font-family="monospace" font-weight="700" font-size="26" text-anchor="middle" fill="#f3efe6">?</text>
+  <text x="45" y="44" font-family="monospace" font-weight="700" font-size="26" text-anchor="middle" fill="#f3efe6">?</text>
+  <circle cx="57" cy="52" r="7" fill="#e5432e" stroke="#f1ede4" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,46 @@
+{
+  "name": "secret-number",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secret Number : chacun a un numéro secret entre 1 et 100, et personne ne connaît le sien. On le déduit en faisant des contacts à deux, on négocie, on ment, puis on remplit sa fiche. D'après The Devil's Plan, en ligne entre amis.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev:server": "tsx watch server/index.ts",
+    "dev:client": "vite",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "vite build",
+    "build:server": "esbuild server/index.ts --bundle --platform=node --target=node20 --format=esm --packages=external --outfile=dist/server/index.mjs",
+    "start": "node dist/server/index.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p .",
+    "e2e": "node test/e2e.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.6.4",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "canvas-confetti": "^1.9.3",
+    "esbuild": "^0.24.2",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.468.0",
+    "qrcode.react": "^4.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io-client": "^4.8.1",
+    "tsx": "^4.19.2",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8",
+    "zustand": "^4.5.5"
+  }
+}
