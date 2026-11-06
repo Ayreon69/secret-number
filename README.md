@@ -2,7 +2,7 @@
 
 Chacun a un numéro secret entre 1 et 100. Personne ne connaît le sien. Pour le trouver, il faut parler aux autres.
 
-👉 **Jouer : https://secret-number.onrender.com** (la première ouverture peut prendre jusqu'à une minute, le temps que le serveur gratuit se réveille)
+👉 **Jouer : https://secret-number-jboy.onrender.com** (la première ouverture peut prendre jusqu'à une minute, le temps que le serveur gratuit se réveille)
 
 Jeu de déduction et de négociation multijoueur, à jouer entre amis depuis un navigateur, sur téléphone ou ordinateur, sans compte ni installation.
 D'après *Secret Number*, l'épreuve principale du 3e jour de *The Devil's Plan* (saison 1, Netflix). Création de fans, non officielle, avec ses propres visuels.
